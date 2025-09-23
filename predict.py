@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 if __name__ == "__main__":
-    pth_path = "Cigarette/v1Adam/weights/best.engine"
+    pth_path = "Cigarette/v1Adam_n/weights/best.engine"
     test_path = r"D:\Cigarette_Switch_Detector\Cigarettesbutts\valid\images\bKrXIb0ogTXZ9L8jBu4m_jpg.rf.8c2b9cedde970186ea2777fa987ce171.jpg"
 
     # Load a custom model
