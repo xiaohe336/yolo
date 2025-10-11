@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 
 if __name__ == "__main__":
-    pth_path = "Cigarette/v1Adam_n/weights/best.engine"
-    test_path = "/home/user/PycharmProjects/yolo/Cigarettesbutts/valid/images/1b16vtgj7qFaGc3ikuMR_jpg.rf.685ca0ba75df650e639582fac5b9c599.jpg"
+    pth_path = "button/v1Adam_n2/weights/best.engine"
+    test_path = "/home/user/PycharmProjects/yolo/yolo_dataset/val/images/1_frame_000076.jpg"
 
     # Load a custom model
     model = YOLO(pth_path)
