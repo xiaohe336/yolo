@@ -18,4 +18,5 @@ if __name__ == '__main__':
                           optimizer='Adam',    # 使用Adam优化器
                           lr0=0.001,           # 初始学习率
                           weight_decay=5e-4,   # 权重衰减（L2正则化）
+                          imgsz=640
                           )

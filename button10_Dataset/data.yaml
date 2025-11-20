@@ -1,0 +1,19 @@
+train: ../images/train
+val: ../images/val
+
+kpt_shape: [4, 3]  # 4个关键点，每个关键点有3个维度 (x, y, visible)
+flip_idx: [0, 1, 2, 3]  # 如果你的关键点需要水平翻转，需要定义对应的索引
+
+# Classes
+names:
+  0: button
+
+# Keypoint names per class
+kpt_names:
+  0:
+    - keypoint_1
+    - keypoint_2
+    - keypoint_3
+    - keypoint_4
+
+
